@@ -12,11 +12,14 @@
 
 #### Courses
 
-- [Multiple View Geometry](https://vision.in.tum.de/teaching/online/mvg), Daniel Cremers, 2014
+- [Multiple View Geometry](https://vision.in.tum.de/teaching/online/mvg), Cremers, 2014
 
+#### Books
+- [Multiple View Geometry in Computer Vision](https://www.robots.ox.ac.uk/~vgg/hzbook/), Hartley and Zisserman, 2004
+- [Computer Vision: Algorithms and Applications](https://szeliski.org/Book/), Szeliski, 2010
 #### Surveys
 
-- [15 Years of Visual SLAM](http://wp.doc.ic.ac.uk/thefutureofslam/wp-content/uploads/sites/93/2015/12/slides_ajd.pdf), Andrew Davison, ICCV 2015 Workshop
+- [15 Years of Visual SLAM](http://wp.doc.ic.ac.uk/thefutureofslam/wp-content/uploads/sites/93/2015/12/slides_ajd.pdf), Davison, ICCV 2015 Workshop
 - [Visual Odometry [Tutorial]](https://ieeexplore.ieee.org/abstract/document/6096039?casa_token=VV2yka6jC-EAAAAA:SVUZ6BWao5ZhKVQmqoJwqj-5hfDL5oq15StyyfFKV2--bXwuM0YX9_G6lZODuZE5HGPwATdTz1o), Scaramuzza and Fraundorfer, RAM 2011
 - [Past, present, and future of simultaneous localization and mapping: Toward the robust-perception age](https://ieeexplore.ieee.org/abstract/document/7747236), Cadena et al., T-RO 2016
 
@@ -26,15 +29,70 @@
 
 ## Papers
 
-- [Real-time simultaneous localisation and mapping with a single camera](https://ieeexplore.ieee.org/abstract/document/1238654), Davison, ICCV 2003
-- [Visual Odometry](https://ieeexplore.ieee.org/abstract/document/1315094?casa_token=9MFPKQrYt0oAAAAA:se45fHIngWObVwjYS5y3Dhlo5WPb8b-K8an41ecJhDVwFhCqUzEObJXvZx95f9VO0qm3TVTrlTY), Nistér et al., CVPR 2004
-- [MonoSLAM: Real-Time Single Camera SLAM](https://ieeexplore.ieee.org/abstract/document/4160954), Davison et al., TPAMI 2007
-- [Parallel tracking and mapping for small AR workspaces](https://www.robots.ox.ac.uk/~gk/publications/KleinMurray2007ISMAR.pdf), Klein and Murray, ISMAR 2007
-- [DTAM: Dense tracking and mapping in real-time](https://ieeexplore.ieee.org/abstract/document/6126513), Newcombe et al., ICCV 2011
-- [KinectFusion: Real-time dense surface mapping and tracking](https://ieeexplore.ieee.org/abstract/document/6162880), Newcombe et al., ISMAR 2011
-- [Dynamicfusion: Reconstruction and tracking of non-rigid scenes in real-time](https://ieeexplore.ieee.org/document/7298631), Newcombe et al., CVPR 2015
-- [ElasticFusion: Dense SLAM without a pose graph](http://roboticsproceedings.org/rss11/p01.pdf), Whelan et al. RSS 2015
+#### System
+- Classical
+    - [Real-time simultaneous localisation and mapping with a single camera](https://ieeexplore.ieee.org/abstract/document/1238654), Davison, ICCV 2003
+    - [Visual Odometry](https://ieeexplore.ieee.org/abstract/document/1315094?casa_token=9MFPKQrYt0oAAAAA:se45fHIngWObVwjYS5y3Dhlo5WPb8b-K8an41ecJhDVwFhCqUzEObJXvZx95f9VO0qm3TVTrlTY), Nistér et al., CVPR 2004
+    - [MonoSLAM: Real-Time Single Camera SLAM](https://ieeexplore.ieee.org/abstract/document/4160954), Davison et al., TPAMI 2007
+    - [Parallel tracking and mapping for small AR workspaces](https://www.robots.ox.ac.uk/~gk/publications/KleinMurray2007ISMAR.pdf), Klein and Murray, ISMAR 2007
+    - [Real-time stereo visual odometry for autonomous ground vehicles](https://ieeexplore.ieee.org/document/4651147), Howard, IROS 2008
+    - [StereoScan: Dense 3d reconstruction in real-time](https://ieeexplore.ieee.org/document/5940405), Geiger et al., IV 2011
+    - [DTAM: Dense tracking and mapping in real-time](https://ieeexplore.ieee.org/abstract/document/6126513), Newcombe et al., ICCV 2011
+    - [KinectFusion: Real-time dense surface mapping and tracking](https://ieeexplore.ieee.org/abstract/document/6162880), Newcombe et al., ISMAR 2011
+    - [Dynamicfusion: Reconstruction and tracking of non-rigid scenes in real-time](https://ieeexplore.ieee.org/document/7298631), Newcombe et al., CVPR 2015
+    - [ElasticFusion: Dense SLAM without a pose graph](http://roboticsproceedings.org/rss11/p01.pdf), Whelan et al. RSS 2015
+    ---
+- Learning-Based
+    - [PoseNet: A Convolutional Network for Real-Time 6-DOF Camera Relocalization](https://www.cv-foundation.org/openaccess/content_iccv_2015/html/Kendall_PoseNet_A_Convolutional_ICCV_2015_paper.html), Kendall et al., ICCV 2015
+    - [Unsupervised Learning of Monocular Depth Estimation and Visual Odometry with Deep Feature Reconstruction](https://openaccess.thecvf.com/content_cvpr_2018/html/Zhan_Unsupervised_Learning_of_CVPR_2018_paper.html), Zhan et al., CVPR 2018
+    - [gradSLAM: Automagically differentiable SLAM](https://arxiv.org/abs/1910.10672), Murthy et al., ICRA 2020
+
+#### Feature Detection
+- Classical
+    - [A combined corner and edge detector](http://www.bmva.org/bmvc/1988/avc-88-023.html), Harris and Stephens, AVC 1988
+    - [SIFT: Distinctive Image Features from Scale-Invariant Keypoints](https://link.springer.com/article/10.1023/B:VISI.0000029664.99615.94), Lowe, IJCV 2004
+    - [SURF: Speeded Up Robust Features](https://link.springer.com/chapter/10.1007/11744023_32), Bay et al., ECCV 2006
+    - [ORB: An efficient alternative to SIFT or SURF](https://ieeexplore.ieee.org/document/6126544), Rublee et al., ICCV 2011
+    ---
+- Learning-Based
+    - [LF-Net: Learning Local Features from Images](), Ono et al., NeurIPS 2017
+    - [SuperPoint: Self-Supervised Interest Point Detection and Description](https://arxiv.org/abs/1712.07629), DeTone et al., CVPR Workshop 2018
+    - [R2D2: Repeatable and Reliable Detector and Descriptor](https://arxiv.org/abs/1906.06195), Revaud et al., NeurIPS 2019
+    - [D2-Net: A Trainable CNN for Joint Description and Detection of Local Features](https://arxiv.org/abs/1905.03561), Dusmanu et al., CVPR 2019
+
+#### Feature Matching
+- Classical
+    - [FLANN: Scalable Nearest Neighbor Algorithms for High Dimensional Data](https://ieeexplore.ieee.org/document/6809191), Muja and Lowe, TPAMI 2014
+    - [GMS: Grid-based Motion Statistics for Fast, Ultra-robust Feature Correspondence](https://ieeexplore.ieee.org/document/8099785), Bian et al., CVPR 2017
+    ---
+- Learning-Based
+    - [Deep Graphical Feature Learning for the Feature Matching Problem](https://openaccess.thecvf.com/content_ICCV_2019/html/Zhang_Deep_Graphical_Feature_Learning_for_the_Feature_Matching_Problem_ICCV_2019_paper.html), Zhang and Lee, ICCV 2019
+    - [SuperGlue: Learning Feature Matching with Graph Neural Networks](https://arxiv.org/abs/1911.11763), Sarlin et al., CVPR 2020
+#### Motion Estimation
+- Classical
+    - [In defense of the eight-point algorithm](https://ieeexplore.ieee.org/abstract/document/601246), Hartley, TPAMI 1997
+    - [An efficient solution to the five-point relative pose problem](https://ieeexplore.ieee.org/abstract/document/1288525?casa_token=SdQVAwGw1SsAAAAA:ehTyMRy_9qvpPNPduQaWiVWoO5SlEmfFtnXL222Ojg9icueDFUKXjVcr-DojSetVXSe4l76rduc), Nistér, TPAMI 2004
+    ---
+- Learning-Based
+    - [Deep Image Homography Estimation](https://arxiv.org/abs/1606.03798), DeTone et al., arXiv 2016
+    - [Unsupervised Learning of Depth and Ego-Motion from Video](https://people.eecs.berkeley.edu/~tinghuiz/projects/SfMLearner/cvpr17_sfm_final.pdf), Zhou et al., CVPR 2017
+    - [GeoNet: Unsupervised Learning of Dense Depth, Optical Flow and Camera Pose](https://openaccess.thecvf.com/content_cvpr_2018/html/Yin_GeoNet_Unsupervised_Learning_CVPR_2018_paper.html), Yin et al., CVPR 2018
+    - [Unsupervised Learning of Depth and Ego-Motion From Monocular Video Using 3D Geometric Constraints](https://openaccess.thecvf.com/content_cvpr_2018/html/Mahjourian_Unsupervised_Learning_of_CVPR_2018_paper.html), Mahjourian et al., CVPR 2018
+
+#### Bundle Adjustment
+
+- Classical
+    - [Bundle Adjustment — A Modern Synthesis](https://lear.inrialpes.fr/pubs/2000/TMHF00/Triggs-va99.pdf), Triggs et al., IWVA 1999
+    ---
+- Learning-Based
+    - [BA-Net: Dense Bundle Adjustment Network](https://arxiv.org/abs/1806.04807), Tang and Tan, ICLR 2018
+
+#### Event Camera
 - [Real-time 3D reconstruction and 6-DoF tracking with an event camera](https://link.springer.com/chapter/10.1007/978-3-319-46466-4_21), Kim et al., ECCV 2016
+- [EVO: A Geometric Approach to Event-Based 6-DOF Parallel Tracking and Mapping in Real Time](https://ieeexplore.ieee.org/abstract/document/7797445), Rebecq et al., RA-L 2016
+- [Simultaneous Optical Flow and Intensity Estimation From an Event Camera](https://openaccess.thecvf.com/content_cvpr_2016/html/Bardow_Simultaneous_Optical_Flow_CVPR_2016_paper.html), Bardow et al., CVPR 2016
+- [Ultimate SLAM? Combining Events, Images, and IMU for Robust Visual SLAM in HDR and High-Speed Scenarios](https://arxiv.org/abs/1709.06310), Vidal, RA-L 2018
+- [Event-based Vision: A Survey](https://arxiv.org/abs/1904.08405), Gallego et al., arXiv 2019
 
 ## Datasets
 
