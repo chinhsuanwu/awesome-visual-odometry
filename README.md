@@ -48,6 +48,7 @@
     - [CodeSLAM - Learning a Compact, Optimisable Representation for Dense Visual SLAM](https://arxiv.org/abs/1804.00874), Bloesch et al., CVPR 2018
     - [Deep Virtual Stereo Odometry: Leveraging Deep Depth Prediction for Monocular Direct Sparse Odometry](https://openaccess.thecvf.com/content_ECCV_2018/html/Nan_Yang_Deep_Virtual_Stereo_ECCV_2018_paper.html), Yang et al., ECCV 2018
     - [gradSLAM: Automagically differentiable SLAM](https://arxiv.org/abs/1910.10672), Murthy et al., ICRA 2020
+    - [D3VO: Deep Depth, Deep Pose and Deep Uncertainty for Monocular Visual Odometry](https://arxiv.org/abs/2003.01060), Yang et al., CVPR 2020
 
 #### Feature Detection
 - Classical
@@ -58,7 +59,7 @@
     ---
 - Learning-Based
     - [LF-Net: Learning Local Features from Images](), Ono et al., NeurIPS 2017
-    - [SuperPoint: Self-Supervised Interest Point Detection and Description](https://arxiv.org/abs/1712.07629), DeTone et al., CVPR Workshop 2018
+    - [SuperPoint: Self-Supervised Interest Point Detection and Description](https://arxiv.org/abs/1712.07629), DeTone et al., CVPR 2018 Workshop
     - [R2D2: Repeatable and Reliable Detector and Descriptor](https://arxiv.org/abs/1906.06195), Revaud et al., NeurIPS 2019
     - [D2-Net: A Trainable CNN for Joint Description and Detection of Local Features](https://arxiv.org/abs/1905.03561), Dusmanu et al., CVPR 2019
 
@@ -82,9 +83,12 @@
     - [Unsupervised Learning of Depth and Ego-Motion From Monocular Video Using 3D Geometric Constraints](https://openaccess.thecvf.com/content_cvpr_2018/html/Mahjourian_Unsupervised_Learning_of_CVPR_2018_paper.html), Mahjourian et al., CVPR 2018
 #### Loop Closure
 
-- [Detecting Loop Closure with Scene Sequences](https://link.springer.com/article/10.1007/s11263-006-0020-1), Ho and Newman, IJCV 2007
-- [Bags of Binary Words for Fast Place Recognition in Image Sequences](https://ieeexplore.ieee.org/abstract/document/6202705/), Gálvez-López and Tardos, T-RO 2012
-
+- Classical
+    - [Detecting Loop Closure with Scene Sequences](https://link.springer.com/article/10.1007/s11263-006-0020-1), Ho and Newman, IJCV 2007
+    - [Bags of Binary Words for Fast Place Recognition in Image Sequences](https://ieeexplore.ieee.org/abstract/document/6202705/), Gálvez-López and Tardos, T-RO 2012
+    ---
+- Learning-Based
+    - [Patch-NetVLAD: Multi-Scale Fusion of Locally-Global Descriptors for Place Recognition](https://arxiv.org/abs/2103.01486), Hausler et al., CVPR 2021
 #### Bundle Adjustment
 
 - Classical
@@ -125,7 +129,7 @@
 
 - [DVO: Dense Visual Odometry](https://github.com/tum-vision/dvo_slam), Steinbruecker et al. ICCV 2011
 - [SVO: Fast semi-direct monocular visual odometry](https://github.com/uzh-rpg/rpg_svo), Forster et al., ICRA 2014
-- [DSO: Direct Sparse Odometry](https://github.com/JakobEngel/dso_ros), Engel et al., 2016
+- [DSO: Direct Sparse Odometry](https://github.com/JakobEngel/dso_ros), Engel et al., TPAMI 2017
 - [Kimera: an Open-Source Library for Real-Time Metric-Semantic Localization and Mapping](https://github.com/MIT-SPARK/Kimera), Rosinol et al., ICRA 2020
 
 #### vSLAM
