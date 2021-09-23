@@ -18,20 +18,20 @@
 - [Real-time stereo visual odometry for autonomous ground vehicles](https://ieeexplore.ieee.org/document/4651147), Howard, IROS 2008
 - [StereoScan: Dense 3d reconstruction in real-time](https://ieeexplore.ieee.org/document/5940405), Geiger et al., IV 2011
 - [DTAM: Dense tracking and mapping in real-time](https://ieeexplore.ieee.org/abstract/document/6126513), Newcombe et al., ICCV 2011
-- [Real-Time Visual Odometry from Dense RGB-D Images](https://vision.cs.tum.edu/_media/spezial/bib/steinbruecker_sturm_cremers_iccv11.pdf), Steinbruecker et al. ICCV 2011 | [code](https://github.com/tum-vision/dvo_slam)
+- [Real-Time Visual Odometry from Dense RGB-D Images](https://vision.cs.tum.edu/_media/spezial/bib/steinbruecker_sturm_cremers_iccv11.pdf), Steinbruecker et al., ICCV 2011 | [code](https://github.com/tum-vision/dvo_slam)
 - [KinectFusion: Real-time dense surface mapping and tracking](https://ieeexplore.ieee.org/abstract/document/6162880), Newcombe et al., ISMAR 2011
-- [Robust Odometry Estimation for RGB-D Cameras](https://vision.in.tum.de/_media/spezial/bib/kerl13icra.pdf), Kerl et al. ICRA 2013 | [code](https://github.com/tum-vision/dvo_slam)
+- [Robust Odometry Estimation for RGB-D Cameras](https://vision.in.tum.de/_media/spezial/bib/kerl13icra.pdf), Kerl et al., ICRA 2013 | [code](https://github.com/tum-vision/dvo_slam)
 - [SVO: Fast semi-direct monocular visual odometry](https://ieeexplore.ieee.org/document/6906584), Forster et al., ICRA 2014 | [code](https://github.com/uzh-rpg/rpg_svo)
 - [LSD-SLAM: Large-Scale Direct Monocular SLAM](https://link.springer.com/chapter/10.1007/978-3-319-10605-2_54), Engel et al., ECCV 2014 | [code]((https://github.com/tum-vision/lsd_slam))
 - [Dynamicfusion: Reconstruction and tracking of non-rigid scenes in real-time](https://ieeexplore.ieee.org/document/7298631), Newcombe et al., CVPR 2015
-- [ElasticFusion: Dense SLAM without a pose graph](http://roboticsproceedings.org/rss11/p01.pdf), Whelan et al. RSS 2015
-- [ORB-SLAM: a Versatile and Accurate Monocular SLAM System](https://ieeexplore.ieee.org/document/7219438), Mur-Artal et al., T-RO 2015 | [code]((https://github.com/raulmur/ORB_SLAM))
+- [ElasticFusion: Dense SLAM without a pose graph](http://roboticsproceedings.org/rss11/p01.pdf), Whelan et al., RSS 2015
+- [ORB-SLAM: a Versatile and Accurate Monocular SLAM System](https://ieeexplore.ieee.org/document/7219438), Mur-Artal et al., T-RO 2015 | [code](https://github.com/raulmur/ORB_SLAM)
 - [ORB-SLAM2: an Open-Source SLAM System for Monocular, Stereo and RGB-D Cameras](https://arxiv.org/abs/1610.06475), Mur-Artal et al., T-RO 2017 | [code](https://github.com/raulmur/ORB_SLAM2)
 - [DSO: Direct Sparse Odometry](https://ieeexplore.ieee.org/iel7/34/4359286/07898369.pdf), Engel et al., TPAMI 2017 | [code](https://github.com/JakobEngel/dso_ros)
 - [Unsupervised Learning of Monocular Depth Estimation and Visual Odometry with Deep Feature Reconstruction](https://openaccess.thecvf.com/content_cvpr_2018/html/Zhan_Unsupervised_Learning_of_CVPR_2018_paper.html), Zhan et al., CVPR 2018
 - [CodeSLAM - Learning a Compact, Optimisable Representation for Dense Visual SLAM](https://arxiv.org/abs/1804.00874), Bloesch et al., CVPR 2018
 - [Deep Virtual Stereo Odometry: Leveraging Deep Depth Prediction for Monocular Direct Sparse Odometry](https://openaccess.thecvf.com/content_ECCV_2018/html/Nan_Yang_Deep_Virtual_Stereo_ECCV_2018_paper.html), Yang et al., ECCV 2018
-- [DynaSLAM: Tracking, Mapping and Inpainting in Dynamic Scenes](https://arxiv.org/abs/1806.05620), Bescos et al., RA-L, 2018 | [code](https://github.com/BertaBescos/DynaSLAM)
+- [DynaSLAM: Tracking, Mapping and Inpainting in Dynamic Scenes](https://arxiv.org/abs/1806.05620), Bescos et al., RA-L 2018 | [code](https://github.com/BertaBescos/DynaSLAM)
 - [OpenVSLAM: A Versatile Visual SLAM Framework](https://arxiv.org/abs/1910.01122), Sumikura et al., ACM MM 2019 | [code](https://github.com/xdspacelab/openvslam)
 - [D3VO: Deep Depth, Deep Pose and Deep Uncertainty for Monocular Visual Odometry](https://arxiv.org/abs/2003.01060), Yang et al., CVPR 2020
 - [Kimera: an Open-Source Library for Real-Time Metric-Semantic Localization and Mapping](https://github.com/MIT-SPARK/Kimera), Rosinol et al., ICRA 2020 | [code](https://arxiv.org/abs/1910.02490)
@@ -56,6 +56,7 @@
 - [SuperGlue: Learning Feature Matching with Graph Neural Networks](https://arxiv.org/abs/1911.11763), Sarlin et al., CVPR 2020
 - [High-dimensional Convolutional Networks for Geometric Pattern Recognition](https://arxiv.org/abs/2005.08144), Choy et al., CVPR 2020
 - [LoFTR: Detector-Free Local Feature Matching with Transformers](https://arxiv.org/abs/2104.00680), Sun et al., CVPR 2021
+- [Co-Attention for Conditioned Image Matching](https://arxiv.org/abs/2007.08480), Wiles et al., CVPR 2021
 
 #### Motion Estimation
 
@@ -98,7 +99,7 @@
 
 #### Loop Closure Detection
 
-- [DBoW](https://ieeexplore.ieee.org/document/6202705), Galvez-López and Tardos, T-RO 2012
+- [DBoW](https://github.com/dorian3d/DBoW2), Galvez-López and Tardos, T-RO 2012
 
 #### Visualization
 
