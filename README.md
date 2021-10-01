@@ -23,9 +23,10 @@
 - [Robust Odometry Estimation for RGB-D Cameras](https://vision.in.tum.de/_media/spezial/bib/kerl13icra.pdf), Kerl et al., ICRA 2013 | [code](https://github.com/tum-vision/dvo_slam)
 - [SVO: Fast semi-direct monocular visual odometry](https://ieeexplore.ieee.org/document/6906584), Forster et al., ICRA 2014 | [code](https://github.com/uzh-rpg/rpg_svo)
 - [LSD-SLAM: Large-Scale Direct Monocular SLAM](https://link.springer.com/chapter/10.1007/978-3-319-10605-2_54), Engel et al., ECCV 2014 | [code]((https://github.com/tum-vision/lsd_slam))
-- [Dynamicfusion: Reconstruction and tracking of non-rigid scenes in real-time](https://ieeexplore.ieee.org/document/7298631), Newcombe et al., CVPR 2015
+- [DynamicFusion: Reconstruction and tracking of non-rigid scenes in real-time](https://ieeexplore.ieee.org/document/7298631), Newcombe et al., CVPR 2015
 - [ElasticFusion: Dense SLAM without a pose graph](http://roboticsproceedings.org/rss11/p01.pdf), Whelan et al., RSS 2015
 - [ORB-SLAM: a Versatile and Accurate Monocular SLAM System](https://ieeexplore.ieee.org/document/7219438), Mur-Artal et al., T-RO 2015 | [code](https://github.com/raulmur/ORB_SLAM)
+- [DeepVO: Towards End-to-End Visual Odometry with Deep Recurrent Convolutional Neural Networks](https://arxiv.org/abs/1709.08429), Wang et al., ICRA 2017
 - [ORB-SLAM2: an Open-Source SLAM System for Monocular, Stereo and RGB-D Cameras](https://arxiv.org/abs/1610.06475), Mur-Artal et al., T-RO 2017 | [code](https://github.com/raulmur/ORB_SLAM2)
 - [DSO: Direct Sparse Odometry](https://ieeexplore.ieee.org/iel7/34/4359286/07898369.pdf), Engel et al., TPAMI 2017 | [code](https://github.com/JakobEngel/dso_ros)
 - [Unsupervised Learning of Monocular Depth Estimation and Visual Odometry with Deep Feature Reconstruction](https://openaccess.thecvf.com/content_cvpr_2018/html/Zhan_Unsupervised_Learning_of_CVPR_2018_paper.html), Zhan et al., CVPR 2018
@@ -39,6 +40,7 @@
 - [ORB-SLAM3: An Accurate Open-Source Library for Visual, Visual-Inertial and Multi-Map SLAM](https://arxiv.org/abs/2007.11898), Campos et al., arXiv 2020 | [code](https://github.com/UZ-SLAMLab/ORB_SLAM3)
 - [Generalizing to the Open World: Deep Visual Odometry with Online Adaptation](https://arxiv.org/abs/2103.15279), Li et al., CVPR 2021
 - [Tight Integration of Feature-based Relocalization in Monocular Direct Visual Odometry](https://arxiv.org/abs/2102.01191), Gladkova et al., ICRA 2021
+- [DROID-SLAM: Deep Visual SLAM for Monocular, Stereo, and RGB-D Cameras](https://arxiv.org/abs/2108.10869), Teed and Deng, arXiv 2021 | [code](https://github.com/princeton-vl/DROID-SLAM)
 
 #### Feature
 
